@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel panel-default">
-  <div class="panel-heading">Input Snack Lion Air</div>
+  <div class="panel-heading">Edit Snack Lion Air</div>
   <div class="panel-body">
   	<form action="{{route ('barang.update', $barang)}}" method="post">
   		{{csrf_field()}}
